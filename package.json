@@ -1,0 +1,35 @@
+{
+  "name": "twopercentpledge",
+  "version": "1.0.0",
+  "description": "Static website for the Two Percent Pledge",
+  "main": "index.js",
+  "repository": "git@github.com:nrabinowitz/twopercentpledge.git",
+  "author": "Nick Rabinowitz <nick@nickrabinowitz.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "gatsby": "^2.3.16",
+    "gatsby-image": "^2.0.37",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-source-filesystem": "^2.0.29",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-uber-es2015": "^3.1.2",
+    "eslint-config-uber-jsx": "^3.3.3",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "yarn develop",
+    "serve": "gatsby serve"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    "prettier"
+  ],
+  "extends": [
+    "eslint-config-uber-es2015",
+    "eslint-config-uber-jsx",
+    "prettier"
+  ]
+}
