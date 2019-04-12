@@ -27,6 +27,7 @@ const ColSubheader = styled.h3`
   font-size: 1.4rem;
   font-weight: 600;
 `;
+
 const P = styled.p`
   margin-bottom: 2rem;
 `;
@@ -36,6 +37,8 @@ const UL = styled.ul`
 const LI = styled.li`
   list-style: none;
   margin-bottom: 0.35rem;
+`;
+const A = styled.a`
 `;
 
 const IndexPage = () => (
@@ -106,7 +109,7 @@ const IndexPage = () => (
         <ColHeader>Get Involved!</ColHeader>
 
         <P>
-          {"We plan to launch the public pledge within the next month. If you’d like to be notified when the pledge page is open, or if you want to get involved in organizing the campaign, please email Nick Rabinowitz (nickr@uber.com)."}
+          {"We're still getting this initiative off the ground! If you want to get involved in organizing the campaign and collecting useful resources, please email us at "}<A href="mailto:info@twopercentpledge.org">{"info@twopercentpledge.org."}</A>
         </P>
       </Col>
 
@@ -119,6 +122,7 @@ const IndexPage = () => (
           <LI>Todd Levin, Software Engineer II</LI>
           <LI>Andreas Saebjoernsen, Sr. Software Engineer</LI>
           <LI>Isaac Brodsky, Sr. Software Engineer II</LI>
+          <LI>Jenny Heath, Software Engineer II (former)</LI>
         </UL>
       </Col>
     </BodyContainer>
