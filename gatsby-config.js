@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Two Percent Pledge`,
+    title: `The Two Percent Pledge`,
     description: `Static site generator for the Two Percent Pledge website`,
     author: `@nrabinowitz`
   },
