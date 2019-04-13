@@ -46,7 +46,7 @@ const IndexPage = () => (
         </P>
         <P>
           {
-            "This initiative is led by employees, and is not officially sponsored by Uber. We're not recommending any specific charities or collecting any donations, though we may offer a short guide with resources for responsible giving."
+            "This initiative is led by employees, and is not officially sponsored by Uber. We're not recommending any specific charities or collecting any donations."
           }
         </P>
       </Col>
