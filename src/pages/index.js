@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import Signatories from '../components/signatories';
 
 const BodyContainer = styled.div`
   display: flex;
@@ -30,11 +31,6 @@ const ColSubheader = styled.h3`
 
 const P = styled.p`
   margin-bottom: 2rem;
-`;
-const UL = styled.ul``;
-const LI = styled.li`
-  list-style: none;
-  margin-bottom: 0.35rem;
 `;
 const A = styled.a``;
 
@@ -129,15 +125,7 @@ const IndexPage = () => (
 
       <Col>
         <ColHeader>Signatories</ColHeader>
-        <UL>
-          <LI>Nicholas Rabinowitz, Sr. Software Engineer II</LI>
-          <LI>Eric Socolofsky, Sr. Software Engineer</LI>
-          <LI>Jon Sadka, Software Engineer II</LI>
-          <LI>Todd Levin, Software Engineer II</LI>
-          <LI>Andreas Saebjoernsen, Sr. Software Engineer</LI>
-          <LI>Isaac Brodsky, Sr. Software Engineer II</LI>
-          <LI>Jenny Heath, Software Engineer II (former)</LI>
-        </UL>
+        <Signatories />
       </Col>
     </BodyContainer>
   </Layout>

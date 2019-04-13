@@ -6,5 +6,11 @@
     "eslint-config-uber-es2015",
     "eslint-config-uber-jsx",
     "prettier"
-  ]
+  ],
+  "rules": {
+    "camelcase": 0
+  },
+  "env": {
+    "node": true
+  }
 }
