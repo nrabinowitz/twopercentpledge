@@ -25,12 +25,9 @@ doc.useServiceAccountAuth(creds, authErr => {
     if (readErr) {
       throw readErr;
     }
-    console.log(
-      JSON.stringify(
-        rows.map(({name, jobtitle}) => ({name, jobtitle})),
-        null,
-        '  '
-      )
-    );
+    const cleanRows = rows
+      .filter(row => Boolean(row.ok))
+      .map(({name, jobtitle}) => ({name, jobtitle}));
+    console.log(JSON.stringify(cleanRows, null, '  '));
   });
 });
