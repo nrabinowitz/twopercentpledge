@@ -105,9 +105,7 @@ const IndexPage = () => (
         </P>
 
         <ColSubheader>
-          {
-            'Uber isn’t the only company with a potential IPO this year. Can employees from other companies participate?'
-          }
+          {'Can employees from other companies participate?'}
         </ColSubheader>
         <P>
           {
