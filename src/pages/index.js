@@ -43,6 +43,11 @@ const SignForm = styled.iframe`
 const P = styled.p`
   margin-bottom: 2rem;
 `;
+const HelpText = styled.p`
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 2rem;
+`;
 const A = styled.a``;
 
 const IndexPage = () => (
@@ -70,6 +75,12 @@ const IndexPage = () => (
         Loading...
       </SignForm>
       <Col>
+        <HelpText>
+          {
+            'Please note that pledge signatures are manually reviewed and updated periodically, so your name will not show up on the site right away.'
+          }
+        </HelpText>
+
         <ColHeader>FAQs</ColHeader>
 
         <ColSubheader>
