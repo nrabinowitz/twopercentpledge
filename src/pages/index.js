@@ -28,10 +28,6 @@ const ColSubheader = styled.h3`
   font-size: 1.4rem;
   font-weight: 600;
 `;
-const SignFormContainer = styled.div`
-  position: relative;
-  width: 100%;
-`;
 const SignForm = styled.iframe`
   height: 912px;
   @media (max-width: 700px) {
@@ -65,18 +61,15 @@ const IndexPage = () => (
           }
         </P>
       </Col>
-      <SignFormContainer>
-        <SignForm
-          src="https://docs.google.com/forms/d/e/1FAIpQLSfne-M3nsCh0aNiYx_C5AOEXPlzD-64eK_pv7GZoZolFzRqqQ/viewform?embedded=true"
-          frameBorder="0"
-          marginHeight="0"
-          marginWidth="0"
+      <SignForm
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfne-M3nsCh0aNiYx_C5AOEXPlzD-64eK_pv7GZoZolFzRqqQ/viewform?embedded=true"
+        frameBorder="0"
+        marginHeight="0"
+        marginWidth="0"
 
-        >
-          Loading...
-        </SignForm>
-      </SignFormContainer>
-
+      >
+        Loading...
+      </SignForm>
       <Col>
         <ColHeader>FAQs</ColHeader>
 
