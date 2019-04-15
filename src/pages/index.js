@@ -100,26 +100,26 @@ const IndexPage = () => (
         <ColSubheader>{'What charities are you recommending?'}</ColSubheader>
         <P>
           {
-            'We are not recommending any specific charities or organizations. Charitable donation is a personal choice, and we encourage people signing the pledge to make donations to organizations that matter to them personally. We intend to offer more resources on responsible giving (for example, how to find great non-profit organizations and evaluate their effectiveness), but the choice of recipient is up to the donor.'
+            'We are not recommending any specific charities or organizations. Charitable donation is a personal choice, and we encourage people signing the pledge to make donations to organizations that matter to them personally. We will offer signers resources on responsible giving (for example, how to find great non-profit organizations and evaluate their effectiveness), but the choice of recipient is up to the donor.'
           }
         </P>
 
         <ColSubheader>
-          {
-            'Uber isn’t the only tech company with a potential IPO this year - should we be extending this to employees from Lyft, AirBnB, etc?'
-          }
+          {'Can employees from other companies participate?'}
         </ColSubheader>
         <P>
           {
-            'While we’d love to see similar campaigns set up at other companies, this campaign is focused on Uber employees. A big part of the campaign is to establish a culture of giving at Uber, and extending to other companies might dilute this goal.'
+            'While this campaign is focused on Uber employees and establishing a culture of giving at Uber, we’d love to see people at other companies undertake a similar effort. Please '
           }
+          <A href="mailto:info@twopercentpledge.org">{'contact us'}</A>
+          {' if you’d like help setting up a similar pledge at your company.'}
         </P>
 
         <ColHeader>Get Involved!</ColHeader>
 
         <P>
           {
-            "We're still getting this initiative off the ground! If you want to get involved in organizing the campaign and collecting useful resources, please email us at "
+            "We're still getting this initiative off the ground! If you want to get involved in organizing the campaign, or if you have any questions, please email us at "
           }
           <A href="mailto:info@twopercentpledge.org">
             {'info@twopercentpledge.org.'}
