@@ -84,7 +84,7 @@ const IndexPage = () => (
         <ColSubheader>{'Two percent of what, exactly?'}</ColSubheader>
         <P>
           {
-            'We’re asking signers of the pledge to donate at least 2% of their vested shares after a potential IPO, or at least 2% of the value of those shares. The pledge is a personal commitment, not a legal document, so the exact interpretation here is up to the signer - this may be a one-time donation, or an ongoing commitment as equity continues to vest. There may be tax advantages to donating actual shares, resulting in higher effective donations, but if it makes more sense to you to sell and donate at least 2% of the proceeds, that’s great too.'
+            'We’re asking signers of the pledge to donate at least 2% of their vested shares after a potential IPO, or at least 2% of the value of those shares. The pledge is a personal commitment, not a legal document, so the exact interpretation here is up to the signer - this may be a one-time donation, or an ongoing commitment as equity continues to vest. There may be tax advantages to donating actual shares, resulting in higher effective donations, but if it makes more sense to you to sell and donate a portion of the proceeds, that’s great too.'
           }
         </P>
 
