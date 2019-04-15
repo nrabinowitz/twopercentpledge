@@ -13,7 +13,7 @@ const BodyContainer = styled.div`
 `;
 const Col = styled.article`
   font-size: 1.1rem;
-  max-width: 540px;
+  max-width: 640px;
   margin: 0 auto 1rem auto;
 `;
 const ColHeader = styled.h2`
@@ -31,10 +31,10 @@ const ColSubheader = styled.h3`
 const SignForm = styled.iframe`
   height: 912px;
   @media (max-width: 700px) {
-    height: 970px
+    height: 970px;
   }
   @media (max-width: 375px) {
-    height: 1045px
+    height: 1045px;
   }
   margin-bottom: 0;
   width: 100%;
@@ -66,7 +66,6 @@ const IndexPage = () => (
         frameBorder="0"
         marginHeight="0"
         marginWidth="0"
-
       >
         Loading...
       </SignForm>
