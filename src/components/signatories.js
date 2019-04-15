@@ -11,8 +11,8 @@ const LI = styled.li`
 export default function Signatories() {
   return (
     <UL>
-      {signers.map(({name, jobtitle}) => (
-        <LI>{`${name}, ${jobtitle}`}</LI>
+      {signers.map(({name, jobtitle}, index) => (
+        <LI key={`${name}_${index}`}>{`${name}, ${jobtitle}`}</LI>
       ))}
     </UL>
   );
