@@ -52,7 +52,7 @@ const IndexPage = () => (
       <Col>
         <P>
           {
-            "The Two Percent Pledge is a bottom-up campaign for current and former Uber employees centered on a public pledge to donate at least 2% of their post-IPO equity to charity. While many Uber employees may be planning to donate some of their earnings from Uber's initial public offering to good causes, others may not have considered it, may not know where to start, or may need a nudge to follow through. Our goal is to take advantage of this unique moment to promote charitable giving as an important part of Uber’s culture."
+            "The Two Percent Pledge is a bottom-up campaign for current and former Uber employees centered on a public pledge to donate at least 2% of their post-IPO equity to charity. While many employees may be planning to donate some of their earnings from Uber's initial public offering to good causes, others may not have considered it, may not know where to start, or may need a nudge to follow through. Our goal is to take advantage of this unique moment to promote charitable giving as an important part of Uber’s culture."
           }
         </P>
         <P>
@@ -84,7 +84,7 @@ const IndexPage = () => (
         <ColSubheader>{'Two percent of what, exactly?'}</ColSubheader>
         <P>
           {
-            'We’re asking signers of the pledge to donate 2% of their vested shares after a potential IPO, or 2% of the value of those shares. The pledge is a personal commitment, not a legal document, so the exact interpretation here is up to the signer - this may be a one-time donation, or an ongoing commitment as equity continues to vest. There may be tax advantages to donating actual shares, resulting in higher effective donations, but if it makes more sense to you to sell and donate 2% of the proceeds, that’s great too.'
+            'We’re asking signers of the pledge to donate at least 2% of their vested shares after a potential IPO, or at least 2% of the value of those shares. The pledge is a personal commitment, not a legal document, so the exact interpretation here is up to the signer - this may be a one-time donation, or an ongoing commitment as equity continues to vest. There may be tax advantages to donating actual shares, resulting in higher effective donations, but if it makes more sense to you to sell and donate at least 2% of the proceeds, that’s great too.'
           }
         </P>
 
