@@ -28,6 +28,17 @@ const ColSubheader = styled.h3`
   font-size: 1.4rem;
   font-weight: 600;
 `;
+const SignForm = styled.iframe`
+  height: 912px;
+  @media (max-width: 700px) {
+    height: 970px
+  }
+  @media (max-width: 375px) {
+    height: 1045px
+  }
+  margin-bottom: 0;
+  width: 100%;
+`;
 
 const P = styled.p`
   margin-bottom: 2rem;
@@ -50,21 +61,15 @@ const IndexPage = () => (
           }
         </P>
       </Col>
-
-      <iframe
+      <SignForm
         src="https://docs.google.com/forms/d/e/1FAIpQLSfne-M3nsCh0aNiYx_C5AOEXPlzD-64eK_pv7GZoZolFzRqqQ/viewform?embedded=true"
-        width="640"
-        height="915"
         frameBorder="0"
         marginHeight="0"
         marginWidth="0"
-        style={{
-          marginBottom: 0
-        }}
+
       >
         Loading...
-      </iframe>
-
+      </SignForm>
       <Col>
         <ColHeader>FAQs</ColHeader>
 
