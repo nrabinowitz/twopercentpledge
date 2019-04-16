@@ -6,4 +6,5 @@ node_js:
 
 script:
   - yarn lint
-  - yarn format && git diff --exit-code
+  - yarn format
+  - git diff --exit-code
