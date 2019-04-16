@@ -36,7 +36,8 @@
     "copy-cname": "cp src/data/CNAME public",
     "deploy": "yarn build && yarn copy-cname && gh-pages -d public",
     "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
+    "lint": "eslint src && eslint scripts",
+    "format": "prettier --write src/**/*.js scripts/**/*.js",
     "start": "yarn develop",
     "update-signers": "node ./scripts/update-signers.js > src/data/signers.json"
   }
