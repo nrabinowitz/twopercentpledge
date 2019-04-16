@@ -1,5 +1,17 @@
 [
   {
+    "name": "Anh Mai",
+    "jobtitle": "Sr. Software Engineer"
+  },
+  {
+    "name": "Connor Riley",
+    "jobtitle": "Engineering Manager"
+  },
+  {
+    "name": "Andreas Sæbjørnsen",
+    "jobtitle": "Software Engineer"
+  },
+  {
     "name": "Tyler Dixon",
     "jobtitle": ""
   },
@@ -54,10 +66,6 @@
   {
     "name": "Todd Levin",
     "jobtitle": "Software Engineer II"
-  },
-  {
-    "name": "Andreas Saebjoernsen",
-    "jobtitle": "Senior Software Engineer"
   },
   {
     "name": "Isaac Brodsky",
