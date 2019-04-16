@@ -25,7 +25,7 @@ doc.useServiceAccountAuth(creds, authErr => {
     throw authErr;
   }
   // Get all of the rows from the spreadsheet.
-  doc.getRows(1, (readErr, rows) => {
+  doc.getRows(1, {orderby: 'timestamp', reverse: true}, (readErr, rows) => {
     if (readErr) {
       throw readErr;
     }
