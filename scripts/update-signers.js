@@ -1,5 +1,4 @@
 /* eslint-disable no-process-env, no-console */
-/* globals Set */
 const GoogleSpreadsheet = require('google-spreadsheet');
 
 const SPREADSHEET_ID = '14dL-8nYBdlS0Ip055-HgPj81IvVLEGvzNZQwPpMZXVU';
