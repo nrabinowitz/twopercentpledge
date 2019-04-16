@@ -1,4 +1,5 @@
 /* eslint-disable no-process-env, no-console */
+/* globals Set */
 const GoogleSpreadsheet = require('google-spreadsheet');
 
 const SPREADSHEET_ID = '14dL-8nYBdlS0Ip055-HgPj81IvVLEGvzNZQwPpMZXVU';
@@ -6,6 +7,7 @@ const SPREADSHEET_ID = '14dL-8nYBdlS0Ip055-HgPj81IvVLEGvzNZQwPpMZXVU';
 const NAME_COL =
   'itheundersignedcurrentorformeruberemployeepledgetodonateatleast2ofthevalueofmyuberequitytocharity.';
 const JOB_COL = 'jobtitleoptional';
+const EMAIL_COL = 'emailaddress_2';
 
 const spreadsheetCredentialsPath = process.env.CREDENTIALS;
 if (!spreadsheetCredentialsPath) {
@@ -29,9 +31,24 @@ doc.useServiceAccountAuth(creds, authErr => {
     if (readErr) {
       throw readErr;
     }
-    const cleanRows = rows
-      .filter(row => Boolean(row.ok))
-      .map(row => ({name: row[NAME_COL], jobtitle: row[JOB_COL]}));
-    console.log(JSON.stringify(cleanRows, null, '  '));
+    console.log(JSON.stringify(processRows(rows), null, '  '));
   });
 });
+
+function processRows(rows) {
+  // check for dupe emails and names
+  const exists = {};
+  rows.forEach(({[NAME_COL]: name, [EMAIL_COL]: email}) => {
+    if (exists[email]) {
+      throw new Error(`Dupe email: ${email}`);
+    }
+    if (exists[name] && !name.match(/anonymous/i)) {
+      throw new Error(`Dupe name: ${name}`);
+    }
+    exists[email] = exists[name] = true;
+  });
+
+  return rows
+    .filter(row => Boolean(row.ok))
+    .map(row => ({name: row[NAME_COL], jobtitle: row[JOB_COL]}));
+}
