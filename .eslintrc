@@ -5,8 +5,14 @@
   "extends": [
     "eslint-config-uber-es2015",
     "eslint-config-uber-jsx",
-    "prettier"
+    "prettier",
+    "prettier/react"
   ],
+  "settings": {
+    "react" : {
+      "version": "detect"
+    }
+  },
   "rules": {
     "camelcase": 0
   },
