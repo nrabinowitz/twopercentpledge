@@ -1,5 +1,17 @@
 [
   {
+    "name": "Elle Dey",
+    "jobtitle": "Marketing Manager"
+  },
+  {
+    "name": "Sunil Garg",
+    "jobtitle": "Engineering Manager"
+  },
+  {
+    "name": "Kevin Li",
+    "jobtitle": "Data Scientist"
+  },
+  {
     "name": "David Zhang",
     "jobtitle": "Data Scientist II"
   },
