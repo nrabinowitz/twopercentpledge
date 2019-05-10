@@ -1,7 +1,6 @@
 #!/bin/sh
 
-yarn update-signers
-git diff
+yarn update-signers && git diff
 
 echo -n "Diff looks good to go (y/n)? "
 read answer
