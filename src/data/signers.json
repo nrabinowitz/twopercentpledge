@@ -1,5 +1,61 @@
 [
   {
+    "name": "Richard Copeland",
+    "jobtitle": "Marketing Manager"
+  },
+  {
+    "name": "Tanvi Surti",
+    "jobtitle": "Product Manager"
+  },
+  {
+    "name": "Khalid Merchant",
+    "jobtitle": "Launcher - Scooters"
+  },
+  {
+    "name": "Andie Obermeyer",
+    "jobtitle": ""
+  },
+  {
+    "name": "Sean Gibat",
+    "jobtitle": "Software Engineer"
+  },
+  {
+    "name": "Claire Eagan",
+    "jobtitle": "Senior Counsel"
+  },
+  {
+    "name": "Phil Santoro",
+    "jobtitle": ""
+  },
+  {
+    "name": "Zoe Brooks",
+    "jobtitle": "Asset Management Lead"
+  },
+  {
+    "name": "Henry Zhao",
+    "jobtitle": "Analytics & Reporting Manager"
+  },
+  {
+    "name": "Kim Wilkes",
+    "jobtitle": "Sourcing Manager"
+  },
+  {
+    "name": "Eduardo Ortiz",
+    "jobtitle": ""
+  },
+  {
+    "name": "Robert van Herpen",
+    "jobtitle": "Sales Manager Netherlands"
+  },
+  {
+    "name": "Pierre Lazarus",
+    "jobtitle": "Global External Tools Program Manager"
+  },
+  {
+    "name": "Benjamin Lipari",
+    "jobtitle": ""
+  },
+  {
     "name": "Evgeni Kunev",
     "jobtitle": "Software Engineer"
   },
