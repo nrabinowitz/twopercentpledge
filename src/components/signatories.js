@@ -13,7 +13,7 @@ export default function Signatories() {
     <UL>
       {signers.map(({name, jobtitle}, index) => (
         <LI key={`${name}_${index}`}>
-          {[name, jobtitle].filter(Boolean).join(', ')}
+          {[name, jobtitle].filter(Boolean).map(s => s.trim()).join(', ')}
         </LI>
       ))}
     </UL>
