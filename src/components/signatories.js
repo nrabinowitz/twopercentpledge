@@ -14,8 +14,8 @@ export default function Signatories() {
       {signers.map(({name, jobtitle}, index) => (
         <LI key={`${name}_${index}`}>
           {[name, jobtitle]
-            .filter(Boolean)
             .map(s => s.trim())
+            .filter(Boolean)
             .join(', ')}
         </LI>
       ))}
