@@ -9,12 +9,15 @@ const LI = styled.li`
 `;
 
 export default function Signatories({Header}) {
-  const lengthAnnotation = signers.length
-    ? <span style={{fontSize: 'smaller'}}>{` (${signers.length})`}</span>
-    : null;
+  const lengthAnnotation = signers.length ? (
+    <span style={{fontSize: 'smaller'}}>{` (${signers.length})`}</span>
+  ) : null;
   return (
     <React.Fragment>
-      <Header>{'Signatories'}{lengthAnnotation}</Header>
+      <Header>
+        {'Signatories'}
+        {lengthAnnotation}
+      </Header>
       <UL>
         {signers.map(({name, jobtitle}, index) => (
           <LI key={`${name}_${index}`}>
