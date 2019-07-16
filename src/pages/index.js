@@ -139,8 +139,7 @@ const IndexPage = () => (
       </Col>
 
       <Col>
-        <ColHeader>Signatories</ColHeader>
-        <Signatories />
+        <Signatories Header={ColHeader} />
       </Col>
     </BodyContainer>
   </Layout>

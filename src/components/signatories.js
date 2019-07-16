@@ -8,17 +8,26 @@ const LI = styled.li`
   margin-bottom: 0.35rem;
 `;
 
-export default function Signatories() {
+export default function Signatories({Header}) {
+  const lengthAnnotation = signers.length ? (
+    <span style={{fontSize: 'smaller'}}>{` (${signers.length})`}</span>
+  ) : null;
   return (
-    <UL>
-      {signers.map(({name, jobtitle}, index) => (
-        <LI key={`${name}_${index}`}>
-          {[name, jobtitle]
-            .map(s => s.trim())
-            .filter(Boolean)
-            .join(', ')}
-        </LI>
-      ))}
-    </UL>
+    <React.Fragment>
+      <Header>
+        {'Signatories'}
+        {lengthAnnotation}
+      </Header>
+      <UL>
+        {signers.map(({name, jobtitle}, index) => (
+          <LI key={`${name}_${index}`}>
+            {[name, jobtitle]
+              .map(s => s.trim())
+              .filter(Boolean)
+              .join(', ')}
+          </LI>
+        ))}
+      </UL>
+    </React.Fragment>
   );
 }
